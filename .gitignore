@@ -1,0 +1,14 @@
+# Output directories
+build/
+_site/
+.cache
+
+# Dependency directories
+node_modules/
+.snowpack
+
+# dotenv environment variable files
+.env*
+
+# Mac files
+.DS_Store

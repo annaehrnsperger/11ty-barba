@@ -1,0 +1,50 @@
+html {
+  font-family: var(--f-sans);
+  font-size: 10px;
+}
+
+body {
+  font-size: var(--fs-copy);
+  overflow: hidden;
+}
+
+/* Images */
+
+figure {
+  width: 20vw;
+  height: 20vw;
+  background: rgb(203, 203, 203);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Layout */
+
+.sp-outer {
+  margin: var(--sp-3-5);
+}
+
+.sp-inner {
+  padding: var(--sp-3-5);
+}
+
+.sp-removed {
+  margin-left: calc(var(--sp-3-5) * -1);
+  margin-bottom: calc(var(--sp-3-5) * -1);
+}
+
+.dark {
+  color: var(--c-bg);
+  background: var(--c-text);
+  transition: all 0.3s ease-out;
+}
+
+.light {
+  color: var(--c-text);
+  background: var(--c-bg);
+  transition: all 0.3s ease-out;
+}
